@@ -81,7 +81,7 @@ p {
 
 
 #hero {
-    background: url(/image/101390717_302088857480264_2207138917971065510_n\ \(1\).jpg) no-repeat center center/cover;
+    background: url(../image/101390717_302088857480264_2207138917971065510_n\ \(1\).jpg) no-repeat center center/cover;
     height: 600px;
 }
 
@@ -163,7 +163,7 @@ p {
 
 /* section testimonials */
 #testimonials {
-    background: url(/image/244045478_574089453906964_8150067168404787572_n.jpg) no-repeat center center/cover;
+    background: url(../image/244045478_574089453906964_8150067168404787572_n.jpg) no-repeat center center/cover;
     height: 600px;
     overflow: hidden;
 }

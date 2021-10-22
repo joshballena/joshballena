@@ -1,0 +1,153 @@
+/* Smartphones */
+@media (max-width: 768px) {
+    #navbar {
+        height: 100px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        margin-top: -20px;
+    }
+
+    nav h1 {
+        text-align: center;
+    }
+    
+    .lead {
+        padding: 0 20px;
+    }
+
+    #what .items {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #what .items .item {
+        display: flex;
+        font-size: 112%;
+        padding: 38px;
+    }
+
+    #what .items .item i {
+        height: 60px;
+        width: 170px;
+        border-radius: 50%;
+        background-color: #8fca4e;
+        margin: 20px 20px 0 0;
+    }
+    
+    #who {
+        display: inline-block;
+    }
+    #who .who-img{
+        height: 640px;
+        width: 700px;
+        background: url(/article.svg) no-repeat center center/cover;
+    }
+    #who .list{
+        /* width: 450px; */
+    }
+    #who .list li{
+        line-height: 2rem
+    }
+    #who .who-text .m-heading{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #clients .items img {
+        height: 700x;
+        width: 130px;
+    }
+}
+
+@media (max-width: 500px) {
+    .l-heading {
+        font-size: 310%;
+        margin: 0 10px;
+    }
+
+    .lead {
+        font-size: 100%;
+    }
+
+    .btn {
+        display: inline-block;
+        height: 35px;
+        width: 120px;
+        border-radius: 10px;
+        background-color: #8fca4e;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #what .items {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 20px;
+    }
+
+    #what .items .item {
+        display: flex;
+        justify-content: center;
+        font-size: 112%;
+        padding: 38px;
+        margin-right: 270px;
+    }
+
+    #what .items .item i {
+        height: 60px;
+        width: 170px;
+        border-radius: 50%;
+        background-color: #8fca4e;
+        margin: 20px 20px 0 0;
+    }
+
+    #who .m-heading{
+        font-size: 180%;
+        margin: 0
+
+    }
+
+    #who .p-1 {
+        font-size: 120%;
+        margin: 0
+
+    }
+
+    #who h3 {
+        font-size: 160%;
+        margin: 0;
+    }
+
+    #who li {
+        font-size: 120%;
+        margin: 0;
+    }
+
+    #who .who-img{
+        height: 450px;
+        width: 500px;
+        background: url(/article.svg) no-repeat center center/cover;
+    }
+
+    #clients .items img {
+        width: 80px;
+    }
+
+    #clients h2 {
+        padding-top: 50px;
+    }
+
+    #main-footer .container {
+        font-size: 60%;
+    }
+}
